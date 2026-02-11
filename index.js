@@ -10,6 +10,8 @@ const app = express();
 app.use(cors()); // 크로스 오리진 설정
 app.use(express.json()); // json 데이터 파싱
 
+// TEST
+
 // 3. root 설정
 app.get('/', (request, response) => {
   response.send('This is the Main App for Deployment');
